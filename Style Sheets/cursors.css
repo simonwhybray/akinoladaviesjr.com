@@ -1,0 +1,25 @@
+/*Custom cursor, default cursor:none globally*/
+
+.customCursor {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999999999;
+  font-family: "BeausiteClassicWeb-Ultrablack";
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  letter-spacing: -1px;
+  text-decoration: none;
+  background: #000000;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+@media only screen and (min-width: 1441px) {
+  .customCursor {
+    font-size: 2.3rem;
+  }
+}

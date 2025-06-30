@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+  
+  <link rel="canonical" href="https://player.vimeo.com/video/229764872">
+  <meta name="googlebot" content="noindex,indexifembedded">
+  
+  
+  <title>Zazzau on Vimeo</title>
+  <style>
+      body, html, .player, .fallback {
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+      .fallback {
+          
+              background-color: transparent;
+          
+      }
+      .player.loading { opacity: 0; }
+      .fallback iframe {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+      }
+  </style>
+  <link rel="modulepreload" href="https://f.vimeocdn.com/p/4.41.8/js/player.module.js" crossorigin="anonymous">
+  <link rel="modulepreload" href="https://f.vimeocdn.com/p/4.41.8/js/vendor.module.js" crossorigin="anonymous">
+  <link rel="preload" href="https://f.vimeocdn.com/p/4.41.8/css/player.css" as="style">
+</head>
+
+<body>
+
+
+<div class="vp-placeholder">
+    <style>
+        .vp-placeholder,
+        .vp-placeholder-thumb,
+        .vp-placeholder-thumb::before,
+        .vp-placeholder-thumb::after {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .vp-placeholder {
+            visibility: hidden;
+            width: 100%;
+            max-height: 100%;
+            height: calc(1080 / 1920 * 100vw);
+            max-width: calc(1920 / 1080 * 100vh);
+            margin: auto;
+        }
+        .vp-placeholder-carousel {
+            display: none;
+            background-color: #000;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -60px;
+            height: 60px;
+        }
+    </style>
+
+    
+
+    
+        <style>
+            .vp-placeholder-thumb {
+                overflow: hidden;
+                width: 100%;
+                max-height: 100%;
+                margin: auto;
+            }
+            .vp-placeholder-thumb::before,
+            .vp-placeholder-thumb::after {
+                content: "";
+                display: block;
+                filter: blur(7px);
+                margin: 0;
+                background: url(https://i.vimeocdn.com/video/1027323727-da8e25a1b781082f74c4063309b54bd9ad03775738e3d0989f646e3929d34068-d?mw=80&q=85) 50% 50% / contain no-repeat;
+            }
+            .vp-placeholder-thumb::before {
+                 
+                margin: -30px;
+            }
+        </style>
+    
+
+    <div class="vp-placeholder-thumb"></div>
+    <div class="vp-placeholder-carousel"></div>
+    <script>function placeholderInit(t,h,d,s,n,o){var i=t.querySelector(".vp-placeholder"),v=t.querySelector(".vp-placeholder-thumb");if(h){var p=function(){try{return window.self!==window.top}catch(a){return!0}}(),w=200,y=415,r=60;if(!p&&window.innerWidth>=w&&window.innerWidth<y){i.style.bottom=r+"px",i.style.maxHeight="calc(100vh - "+r+"px)",i.style.maxWidth="calc("+n+" / "+o+" * (100vh - "+r+"px))";var f=t.querySelector(".vp-placeholder-carousel");f.style.display="block"}}if(d){var e=new Image;e.onload=function(){var a=n/o,c=e.width/e.height;if(c<=.95*a||c>=1.05*a){var l=i.getBoundingClientRect(),g=l.right-l.left,b=l.bottom-l.top,m=window.innerWidth/g*100,x=window.innerHeight/b*100;v.style.height="calc("+e.height+" / "+e.width+" * "+m+"vw)",v.style.maxWidth="calc("+e.width+" / "+e.height+" * "+x+"vh)"}i.style.visibility="visible"},e.src=s}else i.style.visibility="visible"}
+</script>
+    <script>placeholderInit(document,  false ,  true , "https://i.vimeocdn.com/video/1027323727-da8e25a1b781082f74c4063309b54bd9ad03775738e3d0989f646e3929d34068-d?mw=80\u0026q=85",  1920 ,  1080 );</script>
+</div>
+
+<div id="player" class="player"></div>
+<script>window.playerConfig = {"cdn_url":"https://f.vimeocdn.com","vimeo_api_url":"api.vimeo.com","request":{"files":{"dash":{"cdns":{"akfire_interconnect_quic":{"avc_url":"https://vod-adaptive-ak.vimeocdn.com/exp=1751312882~acl=%2F202ca829-d038-4fa1-8e0e-755c9b65b18d%2F%2A~hmac=62d8b9d0c274ae6df9a953b2ec37fa3fe2b1408a26c7b5970f159bcd5c3eea74/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.json?omit=av1-hevc\u0026pathsig=8c953e4f~NtRZQzfqlEP7ohvZ-mwsRArqzZPAVfhmKYzTyj6gVZ8\u0026r=dXM%3D\u0026rh=40ZNa5","origin":"gcs","url":"https://vod-adaptive-ak.vimeocdn.com/exp=1751312882~acl=%2F202ca829-d038-4fa1-8e0e-755c9b65b18d%2F%2A~hmac=62d8b9d0c274ae6df9a953b2ec37fa3fe2b1408a26c7b5970f159bcd5c3eea74/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.json?pathsig=8c953e4f~NtRZQzfqlEP7ohvZ-mwsRArqzZPAVfhmKYzTyj6gVZ8\u0026r=dXM%3D\u0026rh=40ZNa5"},"fastly_skyfire":{"avc_url":"https://skyfire.vimeocdn.com/1751312882-0xdec6b235568817a0b2bffa0ec1ca1db0834ce274/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.json?omit=av1-hevc\u0026pathsig=8c953e4f~NtRZQzfqlEP7ohvZ-mwsRArqzZPAVfhmKYzTyj6gVZ8\u0026r=dXM%3D\u0026rh=40ZNa5","origin":"gcs","url":"https://skyfire.vimeocdn.com/1751312882-0xdec6b235568817a0b2bffa0ec1ca1db0834ce274/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.json?pathsig=8c953e4f~NtRZQzfqlEP7ohvZ-mwsRArqzZPAVfhmKYzTyj6gVZ8\u0026r=dXM%3D\u0026rh=40ZNa5"}},"default_cdn":"akfire_interconnect_quic","separate_av":true,"streams":[{"profile":"165","id":"11668898-804c-40ce-bd36-3fab26bccfa0","fps":25,"quality":"540p"},{"profile":"174","id":"48a0c1ae-566a-4352-a51c-1d68b892d4dc","fps":25,"quality":"720p"},{"profile":"164","id":"5639412d-3329-48c1-8af1-7e5a4b164fdb","fps":25,"quality":"360p"},{"profile":"175","id":"65f17b82-5420-44c7-a079-3c37cda52fdc","fps":25,"quality":"1080p"}],"streams_avc":[{"profile":"165","id":"11668898-804c-40ce-bd36-3fab26bccfa0","fps":25,"quality":"540p"},{"profile":"174","id":"48a0c1ae-566a-4352-a51c-1d68b892d4dc","fps":25,"quality":"720p"},{"profile":"164","id":"5639412d-3329-48c1-8af1-7e5a4b164fdb","fps":25,"quality":"360p"},{"profile":"175","id":"65f17b82-5420-44c7-a079-3c37cda52fdc","fps":25,"quality":"1080p"}]},"hls":{"cdns":{"akfire_interconnect_quic":{"avc_url":"https://vod-adaptive-ak.vimeocdn.com/exp=1751312882~acl=%2F202ca829-d038-4fa1-8e0e-755c9b65b18d%2F%2A~hmac=62d8b9d0c274ae6df9a953b2ec37fa3fe2b1408a26c7b5970f159bcd5c3eea74/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.m3u8?omit=av1-hevc-opus\u0026pathsig=8c953e4f~kCRq_aJRUoUBuRV6vmQOw6wN0KzKC9e8bbC8c0ukJGg\u0026r=dXM%3D\u0026rh=40ZNa5\u0026sf=fmp4","origin":"gcs","url":"https://vod-adaptive-ak.vimeocdn.com/exp=1751312882~acl=%2F202ca829-d038-4fa1-8e0e-755c9b65b18d%2F%2A~hmac=62d8b9d0c274ae6df9a953b2ec37fa3fe2b1408a26c7b5970f159bcd5c3eea74/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.m3u8?omit=opus\u0026pathsig=8c953e4f~kCRq_aJRUoUBuRV6vmQOw6wN0KzKC9e8bbC8c0ukJGg\u0026r=dXM%3D\u0026rh=40ZNa5\u0026sf=fmp4"},"fastly_skyfire":{"avc_url":"https://skyfire.vimeocdn.com/1751312882-0xdec6b235568817a0b2bffa0ec1ca1db0834ce274/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.m3u8?omit=av1-hevc-opus\u0026pathsig=8c953e4f~kCRq_aJRUoUBuRV6vmQOw6wN0KzKC9e8bbC8c0ukJGg\u0026r=dXM%3D\u0026rh=40ZNa5\u0026sf=fmp4","origin":"gcs","url":"https://skyfire.vimeocdn.com/1751312882-0xdec6b235568817a0b2bffa0ec1ca1db0834ce274/202ca829-d038-4fa1-8e0e-755c9b65b18d/v2/playlist/av/primary/playlist.m3u8?omit=opus\u0026pathsig=8c953e4f~kCRq_aJRUoUBuRV6vmQOw6wN0KzKC9e8bbC8c0ukJGg\u0026r=dXM%3D\u0026rh=40ZNa5\u0026sf=fmp4"}},"default_cdn":"akfire_interconnect_quic","separate_av":true},"progressive":[{"profile":"165","width":960,"height":540,"mime":"video/mp4","fps":25,"url":"https://vod-progressive-ak.vimeocdn.com/exp=1751312882~acl=%2Fvimeo-transcode-storage-prod-us-east1-h264-540p%2F01%2F952%2F9%2F229764872%2F810823222.mp4~hmac=8a57f3cc787a07f92a5587689457880afb1f4122e930d09d52abbcf96b4513d1/vimeo-transcode-storage-prod-us-east1-h264-540p/01/952/9/229764872/810823222.mp4","cdn":"akamai_interconnect","quality":"540p","id":"11668898-804c-40ce-bd36-3fab26bccfa0","origin":"gcs"},{"profile":"174","width":1280,"height":720,"mime":"video/mp4","fps":25,"url":"https://vod-progressive-ak.vimeocdn.com/exp=1751312882~acl=%2Fvimeo-transcode-storage-prod-us-central1-h264-720p%2F01%2F952%2F9%2F229764872%2F810823202.mp4~hmac=cab1bc0f67962be98af15c4f3591d01d3d1d4816e0673a738a9a65cb2cba699a/vimeo-transcode-storage-prod-us-central1-h264-720p/01/952/9/229764872/810823202.mp4","cdn":"akamai_interconnect","quality":"720p","id":"48a0c1ae-566a-4352-a51c-1d68b892d4dc","origin":"gcs"},{"profile":"164","width":640,"height":360,"mime":"video/mp4","fps":25,"url":"https://vod-progressive-ak.vimeocdn.com/exp=1751312882~acl=%2Fvimeo-transcode-storage-prod-us-west1-h264-360p%2F01%2F952%2F9%2F229764872%2F810823203.mp4~hmac=5544deb42c3408fb408e6c28ea2b9b03cd3e2bd7bd4f138d5cee34fe4c04ecdc/vimeo-transcode-storage-prod-us-west1-h264-360p/01/952/9/229764872/810823203.mp4","cdn":"akamai_interconnect","quality":"360p","id":"5639412d-3329-48c1-8af1-7e5a4b164fdb","origin":"gcs"},{"profile":"175","width":1920,"height":1080,"mime":"video/mp4","fps":25,"url":"https://vod-progressive-ak.vimeocdn.com/exp=1751312882~acl=%2Fvimeo-transcode-storage-prod-us-west1-h264-1080p%2F01%2F952%2F9%2F229764872%2F810823223.mp4~hmac=a34e236645b74f27ef2a9d6cecabed2266e73f7fe04ef057b35c0d55ed2c2d1e/vimeo-transcode-storage-prod-us-west1-h264-1080p/01/952/9/229764872/810823223.mp4","cdn":"akamai_interconnect","quality":"1080p","id":"65f17b82-5420-44c7-a079-3c37cda52fdc","origin":"gcs"}]},"file_codecs":{"av1":[],"avc":["11668898-804c-40ce-bd36-3fab26bccfa0","48a0c1ae-566a-4352-a51c-1d68b892d4dc","5639412d-3329-48c1-8af1-7e5a4b164fdb","65f17b82-5420-44c7-a079-3c37cda52fdc"],"hevc":{"dvh1":[],"hdr":[],"sdr":[]}},"lang":"en","referrer":"https://akinoladaviesjr.com/","cookie_domain":".vimeo.com","signature":"8ceef405a54a50916c74ab5de26fc94f","timestamp":1751309282,"expires":3600,"thumb_preview":{"url":"https://videoapi-sprites.vimeocdn.com/video-sprites/image/f9ddb9ca-877c-4738-b43e-33f75d8c127b.0.jpeg?ClientID=sulu\u0026Expires=1751312882\u0026Signature=a51ec02f3a2b561680dda1fe160e3efec49db1f7","height":2880,"width":4260,"frame_height":240,"frame_width":426,"columns":10,"frames":120},"currency":"GBP","session":"5f3bbce2ae1c381dc25f408fc3d00ba48fbdf2fc1751309282","cookie":{"volume":1,"quality":null,"hd":0,"captions":null,"transcript":null,"captions_styles":{"color":null,"fontSize":null,"fontFamily":null,"fontOpacity":null,"bgOpacity":null,"windowColor":null,"windowOpacity":null,"bgColor":null,"edgeStyle":null},"audio_language":null,"audio_kind":null,"qoe_survey_vote":0},"build":{"backend":"0f8c5f1","js":"4.41.8"},"urls":{"js":"https://f.vimeocdn.com/p/4.41.8/js/player.js","js_base":"https://f.vimeocdn.com/p/4.41.8/js","js_module":"https://f.vimeocdn.com/p/4.41.8/js/player.module.js","js_vendor_module":"https://f.vimeocdn.com/p/4.41.8/js/vendor.module.js","locales_js":{"de-DE":"https://f.vimeocdn.com/p/4.41.8/js/player.de-DE.js","en":"https://f.vimeocdn.com/p/4.41.8/js/player.js","es":"https://f.vimeocdn.com/p/4.41.8/js/player.es.js","fr-FR":"https://f.vimeocdn.com/p/4.41.8/js/player.fr-FR.js","ja-JP":"https://f.vimeocdn.com/p/4.41.8/js/player.ja-JP.js","ko-KR":"https://f.vimeocdn.com/p/4.41.8/js/player.ko-KR.js","pt-BR":"https://f.vimeocdn.com/p/4.41.8/js/player.pt-BR.js","zh-CN":"https://f.vimeocdn.com/p/4.41.8/js/player.zh-CN.js"},"ambisonics_js":"https://f.vimeocdn.com/p/external/ambisonics.min.js","barebone_js":"https://f.vimeocdn.com/p/4.41.8/js/barebone.js","chromeless_js":"https://f.vimeocdn.com/p/4.41.8/js/chromeless.js","three_js":"https://f.vimeocdn.com/p/external/three.rvimeo.min.js","vuid_js":"https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js","hive_sdk":"https://f.vimeocdn.com/p/external/hive-sdk.js","hive_interceptor":"https://f.vimeocdn.com/p/external/hive-interceptor.js","proxy":"https://player.vimeo.com/static/proxy.html","css":"https://f.vimeocdn.com/p/4.41.8/css/player.css","chromeless_css":"https://f.vimeocdn.com/p/4.41.8/css/chromeless.css","fresnel":"https://arclight.vimeo.com/add/player-stats","player_telemetry_url":"https://arclight.vimeo.com/player-events","telemetry_base":"https://lensflare.vimeo.com","fresnel_manifest_url":"https://lensflare.vimeo.com/add/playback_manifest","fresnel_chunk_url":"https://lensflare.vimeo.com/add/chunk_downloads","test_imp":"https://lensflare.vimeo.com/add/player-test-impression"},"flags":{"plays":1,"dnt":0,"autohide_controls":0,"preload_video":"metadata_on_hover","qoe_survey_forced":0,"ai_widget":0,"ecdn_delta_updates":0,"disable_mms":0,"check_clip_skipping_forward":0},"country":"GB","client":{"ip":"86.133.63.187"},"ab_tests":{},"atid":"2488788120.1751309282","ai_widget_signature":"9c165b93243794018b585e6979f4fac861ed9f56366d0ca99ed8b94a5431a535_1751312882","config_refresh_url":"https://player.vimeo.com/video/229764872/config/request?atid=2488788120.1751309282\u0026expires=3600\u0026referrer=https%3A%2F%2Fakinoladaviesjr.com%2F\u0026session=5f3bbce2ae1c381dc25f408fc3d00ba48fbdf2fc1751309282\u0026signature=8ceef405a54a50916c74ab5de26fc94f\u0026time=1751309282\u0026v=1"},"player_url":"player.vimeo.com","video":{"id":229764872,"title":"Zazzau","width":1920,"height":1080,"duration":502,"url":"https://vimeo.com/229764872","share_url":"https://vimeo.com/229764872","embed_code":"\u003ciframe title=\"vimeo-player\" src=\"https://player.vimeo.com/video/229764872?h=ad0a4d7d84\" width=\"640\" height=\"360\" frameborder=\"0\"    allowfullscreen\u003e\u003c/iframe\u003e","default_to_hd":0,"privacy":"anybody","embed_permission":"public","thumbnail_url":"https://i.vimeocdn.com/video/1027323727-da8e25a1b781082f74c4063309b54bd9ad03775738e3d0989f646e3929d34068-d","owner":{"id":3007369,"name":"Akinola Davies Jr","img":"https://i.vimeocdn.com/portrait/34259864_60x60?sig=f97117ef81391db08fcf1a852e59b4ff4e6c5df9f4ea996aeba9391949d799b7\u0026v=1\u0026region=us","img_2x":"https://i.vimeocdn.com/portrait/34259864_60x60?sig=f97117ef81391db08fcf1a852e59b4ff4e6c5df9f4ea996aeba9391949d799b7\u0026v=1\u0026region=us","url":"","account_type":"plus"},"spatial":0,"live_event":null,"version":{"current":null,"available":null},"unlisted_hash":null,"rating":{"id":3},"fps":25,"channel_layout":"stereo","ai":0,"locale":""},"user":{"id":0,"team_id":0,"team_origin_user_id":0,"account_type":"none","liked":0,"watch_later":0,"owner":0,"mod":0,"logged_in":0,"private_mode_enabled":0,"vimeo_api_client_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiNWYzYmJjZTJhZTFjMzgxZGMyNWY0MDhmYzNkMDBiYTQ4ZmJkZjJmYzE3NTEzMDkyODIiLCJleHAiOjE3NTEzMTI4ODIsImFwcF9pZCI6MTE4MzU5LCJzY29wZXMiOiJwdWJsaWMgc3RhdHMifQ.FxPsOV8AzGKP77oK3JFbuCDI6rP9QCbqWWeeKswJWtk"},"view":1,"vimeo_url":"vimeo.com","embed":{"autoplay":0,"autopause":1,"dnt":0,"editor":0,"keyboard":1,"log_plays":1,"loop":1,"muted":0,"on_site":0,"texttrack":"","transparent":1,"outro":"beginning","playsinline":1,"quality":null,"player_id":"","api":null,"app_id":"","color":"","color_one":"000000","color_two":"00adef","color_three":"ffffff","color_four":"000000","context":"embed.main","settings":{"auto_pip":1,"badge":0,"byline":0,"collections":0,"color":0,"force_color_one":0,"force_color_two":0,"force_color_three":0,"force_color_four":0,"embed":0,"fullscreen":0,"like":0,"logo":0,"playbar":0,"portrait":0,"pip":1,"share":0,"spatial_compass":0,"spatial_label":0,"speed":0,"title":0,"volume":0,"watch_later":0,"watch_full_video":1,"controls":1,"airplay":1,"audio_tracks":1,"chapters":1,"chromecast":1,"cc":1,"transcript":1,"quality":0,"play_button_position":0,"ask_ai":0,"skipping_forward":1},"create_interactive":{"has_create_interactive":false,"viddata_url":""},"persistent_logo":0,"min_quality":null,"max_quality":null,"initial_quality":null}}</script>
+<script>const fullscreenSupported="exitFullscreen"in document||"webkitExitFullscreen"in document||"webkitCancelFullScreen"in document||"mozCancelFullScreen"in document||"msExitFullscreen"in document||"webkitEnterFullScreen"in document.createElement("video");var isIE=checkIE(window.navigator.userAgent),incompatibleBrowser=!fullscreenSupported||isIE;window.noModuleLoading=!1,window.dynamicImportSupported=!1,window.isInIFrame=function(){try{return window.self!==window.top}catch(e){return!0}}(),!window.isInIFrame&&/twitter/i.test(navigator.userAgent)&&window.playerConfig.video.url&&(window.location=window.playerConfig.video.url),window.playerConfig.request.lang&&document.documentElement.setAttribute("lang",window.playerConfig.request.lang),window.loadScript=function(e){var n=document.getElementsByTagName("script")[0];n&&n.parentNode?n.parentNode.insertBefore(e,n):document.head.appendChild(e)},window.loadVUID=function(){if(!window.playerConfig.request.flags.dnt&&!window.playerConfig.embed.dnt){window._vuid=[["pid",window.playerConfig.request.session]];var e=document.createElement("script");e.async=!0,e.src=window.playerConfig.request.urls.vuid_js,window.loadScript(e)}},window.loadCSS=function(e,n){var i={cssDone:!1,startTime:new Date().getTime(),link:e.createElement("link")};return i.link.rel="stylesheet",i.link.href=n,e.getElementsByTagName("head")[0].appendChild(i.link),i.link.onload=function(){i.cssDone=!0},i},window.loadLegacyJS=function(e,n){if(incompatibleBrowser){var i=e.querySelector(".vp-placeholder");i&&i.parentNode&&i.parentNode.removeChild(i);let o=`/video/${window.playerConfig.video.id}/fallback`;window.playerConfig.request.referrer&&(o+=`?referrer=${window.playerConfig.request.referrer}`),n.innerHTML=`<div class="fallback"><iframe title="unsupported message" src="${o}" frameborder="0"></iframe></div>`}else{n.className="player loading";var t=window.loadCSS(e,window.playerConfig.request.urls.css),r=e.createElement("script"),a=!1;r.src=window.playerConfig.request.urls.js,window.loadScript(r),r["onreadystatechange"in r?"onreadystatechange":"onload"]=function(){!a&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")&&(a=!0,playerObject=new VimeoPlayer(n,window.playerConfig,t.cssDone||{link:t.link,startTime:t.startTime}))},window.loadVUID()}};function checkIE(e){e=e&&e.toLowerCase?e.toLowerCase():"";function n(r){return r=r.toLowerCase(),new RegExp(r).test(e);return browserRegEx}var i=n("msie")?parseFloat(e.replace(/^.*msie (\d+).*$/,"$1")):!1,t=n("trident")?parseFloat(e.replace(/^.*trident\/(\d+)\.(\d+).*$/,"$1.$2"))+4:!1;return i||t}
+</script>
+<script nomodule>
+  window.noModuleLoading = true;
+  var playerEl = document.getElementById('player');
+  window.loadLegacyJS(document, playerEl);
+</script>
+<script type="module">try{import("").catch(()=>{})}catch(t){}window.dynamicImportSupported=!0;
+</script>
+<script type="module">if(!window.dynamicImportSupported){if(!window.noModuleLoading){window.noModuleLoading=!0;var playerEl=document.getElementById("player");window.loadLegacyJS(document,playerEl)}var moduleScriptLoader=document.getElementById("js-module-block");moduleScriptLoader&&moduleScriptLoader.parentElement.removeChild(moduleScriptLoader)}
+</script>
+<script type="module" id="js-module-block">if(!window.noModuleLoading&&window.dynamicImportSupported){const n=document.getElementById("player"),e=window.loadCSS(document,window.playerConfig.request.urls.css);import(window.playerConfig.request.urls.js_module).then(function(o){new o.VimeoPlayer(n,window.playerConfig,e.cssDone||{link:e.link,startTime:e.startTime}),window.loadVUID()}).catch(function(o){throw/TypeError:[A-z ]+import[A-z ]+module/gi.test(o)&&window.loadLegacyJS(document,n),o})}
+</script>
+
+<script type="application/ld+json">{"embedUrl":"https://player.vimeo.com/video/229764872?h=ad0a4d7d84","thumbnailUrl":"https://i.vimeocdn.com/video/1027323727-da8e25a1b781082f74c4063309b54bd9ad03775738e3d0989f646e3929d34068-d?f=webp","name":"Zazzau","description":"This is \"Zazzau\" by \"Akinola Davies Jr\" on Vimeo, the home for high quality videos and the people who love them.","duration":"PT502S","uploadDate":"2017-08-15T16:50:11-04:00","@context":"https://schema.org/","@type":"VideoObject"}</script>
+
+</body>
+</html>

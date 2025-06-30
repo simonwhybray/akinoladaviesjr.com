@@ -1,0 +1,200 @@
+/*Contact modal desktop text styling*/
+.contact__contentContainer a,
+.contact__contentContainer h2 {
+  font-family: "BeausiteClassicWeb-Medium";
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: black;
+  overflow-wrap: break-word;
+}
+
+.contact__contentContainer h1,
+.contact__contentSocialLinks a {
+  font-family: "BeausiteClassicWeb-Ultrablack";
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  letter-spacing: -1px;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.contact__contentContainer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*Contact modal desktop layout styling*/
+.contact__closeZone {
+  width: 100%;
+  height: auto;
+  min-height: 75px;
+  flex-grow: 1;
+}
+
+.contact__closeButton {
+  display: none;
+}
+
+.contact__contentSocialLinks a {
+  padding-bottom: 0rem;
+}
+
+.contact__contentSocialLinks a:hover {
+  cursor: pointer;
+}
+
+.contact__outerContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #93ff00;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.contact__innerContainer {
+  width: 100%;
+  display: flex;
+  padding: 0 3%;
+  flex-shrink: 0;
+}
+
+.contact__columnContainer {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0 2rem;
+  min-width: 0;
+  overflow: hidden;
+  white-space: normal;
+  margin: auto;
+}
+
+.contactItem--extraSpaceTop {
+  margin-top: 3rem;
+}
+
+.contactItem--extraSpaceBottom {
+  margin-bottom: 2rem;
+}
+
+/*contact modal on large screen xl. screens bigger than 2000px*/
+@media only screen and (min-width: 2000px) {
+  .contact__innerContainer {
+    padding: 0 15%;
+  }
+}
+
+/*contact modal on large screen l. screens bigger than 1200px*/
+@media only screen and (min-width: 1200px) {
+  .contact__innerContainer {
+    padding: 0 6%;
+  }
+}
+/* contact modal on large screen xl. screens bigger than 1441px */
+@media only screen and (min-width: 1441px) {
+  .contact__innerContainer {
+    padding: 0 10%;
+  }
+
+  .contact__contentContainer a,
+  .contact__contentContainer h2 {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+
+  .contact__contentContainer h1,
+  .contact__contentSocialLinks a {
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+  }
+}
+
+/*Contact modal single column tablet landscape. On touch screens that are 1400px or less */
+@media only screen and (max-width: 1400px) and (hover: none) {
+  .contact__contentContainer h1 {
+    padding-top: 2rem;
+  }
+  .contact__innerContainer {
+    position: static;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .contact__closeZone {
+    display: none;
+  }
+  .contact__closeButton {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: "BeausiteClassicWeb-Ultrablack";
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    letter-spacing: -1px;
+    display: block;
+    position: fixed;
+    left: 5%;
+    top: 8%;
+  }
+  .contact__contentSocialLinks {
+    order: -1;
+  }
+  .contact__columnContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactItem--extraSpaceTop {
+    margin-top: 0rem;
+  }
+  .contact__contentContainer a {
+    text-decoration: underline;
+  }
+}
+
+/*Contact modal single column. On screens (not touch) that are 950px or less */
+@media only screen and (max-width: 950px) {
+  .contact__contentContainer h1 {
+    padding-top: 2rem;
+  }
+  .contact__innerContainer {
+    position: static;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .contact__closeZone {
+    display: none;
+  }
+  .contact__closeButton {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: "BeausiteClassicWeb-Ultrablack";
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    letter-spacing: -1px;
+    display: block;
+    position: fixed;
+    left: 5%;
+    top: 8%;
+  }
+  .contact__contentSocialLinks {
+    order: -1;
+  }
+  .contact__columnContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactItem--extraSpaceTop {
+    margin-top: 0rem;
+  }
+  .contact__contentContainer a {
+    text-decoration: underline;
+  }
+}

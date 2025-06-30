@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "BeausiteClassicWeb-Medium";
+  src: url("../assets/fonts/BeausiteClassicWeb-Medium.woff2") format("woff2"),
+    url("../assets/fonts/BeausiteClassicWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BeausiteClassicWeb-Ultrablack";
+  src: url("../assets/fonts/BeausiteClassicWeb-Ultrablack.woff2")
+      format("woff2"),
+    url("../assets/fonts/BeausiteClassicWeb-Ultrablack.woff") format("woff");
+}
